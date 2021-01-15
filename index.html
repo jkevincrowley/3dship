@@ -73,7 +73,7 @@
             // use the three.js GLTF loader to add the 3D model to the three.js scene
             var loader = new THREE.GLTFLoader();
             loader.load(
-                '/RSSC3DShip/scene.gltf',
+                'scene.gltf',
                 function (gltf) {
                     this.scene.add(gltf.scene);
                 }.bind(this)
